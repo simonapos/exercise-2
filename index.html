@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mulish"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <!-- HEADER -->
+    <header class="pt-3 pb-5" id="home">
+      <div class="heading">
+        <div
+          class="container-fluid d-flex justify-content-between align-items-center"
+        >
+          <div class="logo">
+            <img src="assets/logo.png" alt="" />
+          </div>
+          <a class="card-items">
+            Card
+            <span class="card-items-num">3</span>
+          </a>
+        </div>
+      </div>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="banner d-flex align-items-center">
+              <div class="container">
+                <div
+                  class="d-flex justify-content-evenly align-items-center flex-column flex-md-row"
+                >
+                  <div
+                    class="banner-left d-flex flex-column align-items-center d-md-block"
+                  >
+                    <h1><span>Apple - </span>Magic Magic 2 Space Grey</h1>
+                    <div class="price d-flex">
+                      <p class="price-old">$199,</p>
+                      <p class="price-new">$100,</p>
+                    </div>
+                    <div class="btn btn-add text-uppercase">Add to card</div>
+                  </div>
+                  <div class="banner-right">
+                    <img src="assets/img-1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="banner d-flex align-items-center">
+              <div class="container">
+                <div
+                  class="d-flex justify-content-evenly align-items-center flex-column flex-md-row"
+                >
+                  <div
+                    class="banner-left d-flex flex-column align-items-center d-md-block"
+                  >
+                    <h1><span>Apple - </span>iPhone 12 Space Grey</h1>
+                    <div class="price d-flex">
+                      <p class="price-old">$1190,</p>
+                      <p class="price-new">$999,</p>
+                    </div>
+                    <div class="btn btn-add text-uppercase">Add to card</div>
+                  </div>
+                  <div class="banner-right">
+                    <img src="assets/img-2.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- <div class="banner">
+        <div class="container">
+          <div class="banner-left">
+            <h1>Apple - Magic Magic 2 Space Grey</h1>
+            <div class="price d-flex">
+              <p class="price-old">$199,</p>
+              <p class="price-new">$100,</p>
+            </div>
+            <div class="btn btn-add text-uppercase">Add to card</div>
+          </div>
+          <div class="banner-right"></div>
+        </div>
+      </div> -->
+    </header>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-md sticky-top">
+      <div class="container-fluid">
+        <div
+          class="collapse navbar-collapse d-flex justify-content-md-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#store">Store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- GRID SECTION -->
+    <section class="grid" id="store">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Grid</h2>
+          <h6 class="text-center">
+            Below presented <span>responsive</span> gallery
+          </h6>
+        </div>
+        <div class="grid-gallery">
+          <div class="item item1"></div>
+          <div class="item item2"></div>
+          <div class="item item3"></div>
+          <div class="item item4"></div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-wrapper">
+          <div class="section-heading">
+            <h2>About</h2>
+            <h6 class="text-center">
+              Lorem ipsum dolor sit amet consequuntur, recusandae animi.
+            </h6>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="about-content">
+                <h3 class="text-uppercase mb-0"><span>New</span> Heading</h3>
+                <h5 class="text-uppercase">Create Content</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+                  quam <span>repellendus exercitationem</span> dolorem
+                  reprehenderit odit, architecto aut.
+                  <a href="">Quisquam molestiae</a> porro, recusandae deleniti
+                  cupiditate illum voluptates. Fuga asperiores voluptates
+                  tempore eveniet.
+                </p>
+                <ul class="list-circle">
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 offset-md-1">
+              <button
+                type="button"
+                class="btn btn-primary btn-block mt-4 py-2"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Open Modal
+              </button>
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">
+                        Lorem Ipsum
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Laborum, consequatur tempore libero ipsa deleniti odit
+                      adipisci saepe earum qui vel obcaecati cum, dolor
+                      quibusdam! Accusamus quam eaque fugiat earum esse!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <table class="table mt-5">
+            <thead>
+              <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Description</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Item title</td>
+                <td>Here goes item description in my fancy table</td>
+                <td>$1OO,OO</td>
+              </tr>
+              <tr>
+                <td>Item title</td>
+                <td>Here goes item description in my fancy table</td>
+                <td>$1O,OO</td>
+              </tr>
+              <tr>
+                <td>Item title</td>
+                <td>Here goes item description in my fancy table</td>
+                <td>$5287,OO</td>
+              </tr>
+              <tr>
+                <td>Item title</td>
+                <td>Here goes item description in my fancy table</td>
+                <td>$412,OO</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Contact</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <form class="d-flex flex-column d-md-block">
+              <div class="mb-2">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="First Name and Last Name"
+                  id="fullName"
+                />
+              </div>
+              <div class="mb-2">
+                <label for="exampleEmail" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email Address"
+                  id="exampleEmail"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-2">
+                <label for="phoneNum" class="form-label">Contact Phone</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  placeholder="Phone Number"
+                  id="phoneNum"
+                />
+              </div>
+              <div class="mb-5">
+                <label for="textarea" class="form-label">Comment</label>
+                <textarea
+                  class="form-control"
+                  placeholder="Message.."
+                  id="textarea"
+                ></textarea>
+              </div>
+
+              <button type="button" class="btn btn-primary px-5" id="toastbtn">
+                Send
+              </button>
+              <div
+                class="toast align-items-center mt-3"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="d-flex">
+                  <div class="toast-body">
+                    Your information was sent successfully!
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close me-2 m-auto"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-5 offset-md-2">
+            <div class="contact-info">
+              <h4>Get in touch</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Debitis, libero doloribus delectus modi hic recusandae non nemo.
+                Quo provident esse similique, modi aliquid, fugiat velit odio at
+                temporibus labore sed.
+              </p>
+              <a href="mailto:info@blabla.mk" class="contact-mail"
+                >info@blabla.mk</a
+              >
+              <a href="tel:+3893222111" class="contact-number"
+                >(389) 3222-111</a
+              >
+              <div class="contact-address">
+                <p>Blvd. Partizanska 62</p>
+                <p>1000 Skopje, Macedonia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="copyright">
+      <p>Copyright 2022 - Nextsense</p>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      document.getElementById("toastbtn").onclick = function () {
+        var toastElList = [].slice.call(document.querySelectorAll(".toast"));
+        var toastList = toastElList.map(function (toastEl) {
+          // Creates an array of toasts (it only initializes them)
+          return new bootstrap.Toast(toastEl); // No need for options; use the default options
+        });
+        toastList.forEach((toast) => toast.show()); // This show them
+
+        console.log(toastList); // Testing to see if it works
+      };
+    </script>
+  </body>
+</html>
